@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan Tosic</title>
+</head>
+
+<body>
+    
+
+    <div class="title">
+        <div class="header">
+    
+            <button onclick="mobileMenuu()">MENI</button>
+    
+            <ul>
+                <li><a onclick="scrollInot()">POCETNA</a></li>
+                <li><a onclick="scrollAbout()">O MENI</a></li>
+                <li><a onclick="scrollSkills()">VESTINE</a></li>
+                <li><a onclick="scrollProjects()">PROJEKTI</a></li>
+                <li><a onclick="scrollContact()">KONTAKT</a></li>
+            </ul>
+            <button id="btn" onclick="git()">GITHUB</button>
+            <div class="dropdown">
+                <span>Izaberite jezik:</span>
+                <div class="dropdown-content">
+                    <a href="index.html">Engleski</a>
+                    <br>
+                    <a href="indexS.html">Srpski</a>
+                </div>
+              </div>
+         </div>
+    </div>
+
+   
+
+    <div id="quat">
+        <div class="text">
+            <h1>Pozdrav<span>,</span></h1>
+            <span>Ja sam <span style="color: aqua;">Stefan Tosic</span>,</span>
+            <p>Pocetnik sam <span style="color: #7A0BC0; font-size: 30px;">svetu programera</span>.</p>
+            <button onclick="scrollAbout()">O meni</button>
+        </div>
+     
+    
+       <img src="./picture/me.jpg" >
+    </div>
+    
+    <div id="about">
+        <div class="pic">
+            <img src="./picture/Ja.jpg">
+        </div>
+        <div class="text">
+            <p id="pf1">O <span>meni</span></p>
+            <br>
+            <p>Kada sam 2020. godine upisao tehnicku skolu u Pirotu, moje putovanje je zvanicno</p>
+                
+            <p>pocelo. Verovao sam da mali koraci mogu dovesti do znacajnih</p>   
+                
+            <p>promena i da mi pomogne da uspem u ovom brzom zivotu.</p>     
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p>Pozdrav svima, ja sam 3. godina IT smera, </p>
+            
+            <p>trenutno idem u Tehnickoj skoli </p>
+
+            <p> in Pirot. Uvek sam </p>
+
+            <p>spreman za nova iskustva i da</p>
+
+            <p> naucim nove tehnologije i da ih implementiram </p>
+
+            <p> u moj zivot. Ucim nove stvari i vesitne koje pomazu </p>
+
+            <p>ljudima da stvore osecaj kroz mojih vestina, i resavanje </p>
+
+            <p>svojim vestina i svog problema. Volim kodiranje i posebno veb razvoj.</p>
+        </div>
+    </div>
+
+
+    <div id="skills">
+        <p id="pf1">Moje <span>vestine</span></p>
+        <p>Alati i programski jezici koje korsitim za programiranje i pravljenje projekata.</p>
+
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/download.png">
+                <h2>HTML</h2>
+                <p>Ovaj programski jezik korsitm za stvaranje veb sajtova.</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/javascript-logo.jpg">
+                <h2>JAVA SCRIPT</h2>
+                <p>Ovaj programski jezik korsitim za prilagodjavanje veb sajtova i njihovu izradu sa punom funkcionalnoscu.</p>
+            </div>
+            <div class="tools">
+                <img src="./picture/css logo.jpg">
+                <h2>CSS</h2>
+                <p>Ovaj programski jezik koristim za stilizovanje i dizajn veb sajtova.</p>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/pg.jpg">
+                <h2>Adobe Photoshop</h2>
+                <p>Ovaj alat korsitm za pravljenje slika.</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/ciSharp.jpg">
+                <h2>C#</h2>
+                <p>Ovaj programski jezik koristim za 'backend'.</p>
+            </div>
+            <div class="tools">
+                <img src="./picture/Adobe_Premiere_Pro_Logo.svg.png">
+                <h2>Adobe Premier</h2>
+                <p>Ovaj alat korsitm za pravljenje videa.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="proj">
+        <div class="pojectInto">
+            <div class="pic">
+            <img src="./picture/apple.jpg">
+            </div>
+            <div class="text">
+                <p id="pf1">Moji  <span>projekti</span></p>
+                <p>Ovde mozete videti neke od mojih projekata, koje sam sam radio ili u koje sam ucestvovao.</p>
+            </div>
+        </div>
+
+        <div class="firstProj">
+            <div class="text">
+                <h3>BMW M2 Kupe</h3>
+                <p>Ovo je moj sajt za kraj prvog polugodja iz veb programiranja. Ovaj sajt je inspirisan drugim sajtom, ali ima i moje maste.</p>
+                <button onclick="site1()">Pogledaj sajt</button>
+            </div>
+            <div class="pic">
+                <img src="./picture/web.jpg">
+            </div>
+        </div>
+
+        <div class="secondProj">
+            <div class="pic">
+                <img src="./picture/eng.jpg">
+            </div>
+            <div class="text">
+                <h3>Projekat iz engleskog</h3>
+                <p>Ovaj projekat sam radio sa svojim drugom Reljom. Mogli smo da napravimo prezentaciju, ali zeleli smo da budemo inovativni.</p>
+                <button onclick="site2()">Pogledaj sajt</button>
+            </div>
+        </div>
+
+        <div class="firstProj">
+            <div class="text">
+                <h3>Domace zivotinje</h3>
+                <p>Imao sam zadatak da napravim sajt koji je identican kao B2 zadatak iz prirucnika 2022. IT.</p>
+                <button onclick="site3()">Pogledaj sajt</button>
+            </div>
+            <div class="pic">
+                <img src="./picture/animals.jpg">
+            </div>
+        </div>
+      
+    </div>
+
+    <div id="contact">
+        <p id="pf1">Kontaktirajte <span>me</span></p>
+        <p>Mozete me kontaktirati putem:</p>
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/telefon.png" style="width: 80px; height: 80px;">
+                <h2>Telefona</h2>
+                <p>063 1778684</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/Gmail.jpg">
+                <h2>Email-a</h2>
+                <p>stefantosic005@gmail.com</p>
+            </div>
+            <div class="tools2">
+                <img src="./picture/teams.png" style="width: 120px;">
+                <h2>Teams-a</h2>
+                <p>tosic.stefan.201@tsp.edu.rs</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="down">
+        <div class="images">
+            <p>Mozete me kontaktirati i putem sledecih socijalnih mreza</p>
+            <img src="./picture/instagram.jpg" onclick="insta()">
+            <img src="./picture/fb.png" onclick="fb()">
+            <img src="./picture/25231.png" onclick="git()">
+            <img src="./picture/disc.jpg" onclick="disc()" >
+        </div>
+      
+        <div class="footer">
+            <ul>
+                <li><a onclick="scrollInot()">POCETNA</a></li>
+                <li><a onclick="scrollAbout()">O MENI</a></li>
+                <li><a onclick="scrollSkills()">VESTINE</a></li>
+                <li><a onclick="scrollProjects()">PROJEKTI</a></li>
+                <li><a onclick="scrollContact()">KONTAKT</a></li>
+            </ul>
+        </div>
+        <p>© Dizajnirao Stefan Tosic. Sva prava su zadrzana.</p>
+    </div>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

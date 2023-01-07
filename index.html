@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stefan Tosic</title>
+</head>
+
+<body>
+    
+
+    <div class="title">
+        <div class="header">
+    
+            <button onclick="mobileMenu()">MENU</button>
+    
+            <ul>
+                <li><a onclick="scrollInot()">HOME</a></li>
+                <li><a onclick="scrollAbout()">ABOUT</a></li>
+                <li><a onclick="scrollSkills()">SKILLS</a></li>
+                <li><a onclick="scrollProjects()">PROJECTS</a></li>
+                <li><a onclick="scrollContact()">CONTACT</a></li>
+            </ul>
+            <button id="btn" onclick="git()">GITHUB</button>
+            <div class="dropdown">
+                <span>Select a language:</span>
+                <div class="dropdown-content">
+                    <a href="index.html">English</a>
+                    <br>
+                    <a href="indexS.html">Serbian</a>
+                </div>
+              </div>
+         </div>
+    </div>
+
+   
+
+    <div id="quat">
+        <div class="text">
+            <h1>Hi <span style="font-size: 80px;">there</span><span>,</span></h1>
+            <span>I'am <span style="color: aqua;">Stefan Tosic</span>,</span>
+            <p>I am a beginner in <span style="color: #7A0BC0; font-size: 30px;">the world of developer</span>.</p>
+            <button onclick="scrollAbout()">About Me</button>
+        </div>
+     
+    
+       <img src="./picture/me.jpg" >
+    </div>
+    
+    <div id="about">
+        <div class="pic">
+            <img src="./picture/Ja.jpg">
+        </div>
+        <div class="text">
+            <p id="pf1">About <span>me</span></p>
+            <br>
+            <p>When I entered the technical school in Pirot in 2020, my journey officially began.</p>
+                
+            <p>I believed that small steps could lead to significant ones</p>   
+                
+            <p >change and to help me succeed in this fast life.  </p>     
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p>Hi everyone, I am a 3rd year IT major, currently</p>
+            
+            <p>   I am studying in Tehnicla School</p>
+
+            <p> in Pirot. I am always </p>
+
+            <p>ready to have new experiences </p>
+
+            <p>and learn new technologies and implement   </p>
+
+            <p>them in my life. I learn new things and new skilss help  </p>
+
+            <p>people by creating impact through my developing skills and by solving</p>
+
+            <p> their  skills and by solving their problem. I love coding and specially web development.</p>
+        </div>
+    </div>
+
+
+    <div id="skills">
+        <p id="pf1">My <span>skills</span></p>
+        <p>Tools and programming languages that I use for development and making projects.</p>
+
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/download.png">
+                <h2>HTML</h2>
+                <p>I use this language for creating Websites.</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/javascript-logo.jpg">
+                <h2>JAVA SCRIPT</h2>
+                <p>I use this programming language for making websites responsive and build them with full functionality.</p>
+            </div>
+            <div class="tools">
+                <img src="./picture/css logo.jpg">
+                <h2>CSS</h2>
+                <p>I use this programming language for styling and designing Websites.</p>
+            </div>
+        </div>
+
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/pg.jpg">
+                <h2>Adobe Photoshop</h2>
+                <p>I use this tool for making some pictures.</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/ciSharp.jpg">
+                <h2>C#</h2>
+                <p>I use this programming language for backend.</p>
+            </div>
+            <div class="tools">
+                <img src="./picture/Adobe_Premiere_Pro_Logo.svg.png">
+                <h2>Adobe Premier</h2>
+                <p>I use this tool for making some videos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="proj">
+        <div class="pojectInto">
+            <div class="pic">
+            <img src="./picture/apple.jpg">
+            </div>
+            <div class="text">
+                <p id="pf1">My <span>projects</span></p>
+                <p>Here you can see some of my projects, which I did myself or in which I participated.</p>
+            </div>
+        </div>
+
+        <div class="firstProj">
+            <div class="text">
+                <h3>BMW M2 Coupe</h3>
+                <p>This is my site for the end of first semester from web programming. This site is inspireted by another site, but have and my imaginations too.</p>
+                <button onclick="site1()">View site</button>
+            </div>
+            <div class="pic">
+                <img src="./picture/web.jpg">
+            </div>
+        </div>
+
+        <div class="secondProj">
+            <div class="pic">
+                <img src="./picture/eng.jpg">
+            </div>
+            <div class="text">
+                <h3>English project</h3>
+                <p>This project I did whit my friend Relja. We could also make a presentation, but we wanted to be innovate.</p>
+                <button onclick="site2()">View site</button>
+            </div>
+        </div>
+
+        <div class="firstProj">
+            <div class="text">
+                <h3>Domestic animals</h3>
+                <p>I had the task of creating a site to be identical to the B2 task from the 2022 IT manual.</p>
+                <button onclick="site3()">View site</button>
+            </div>
+            <div class="pic">
+                <img src="./picture/animals.jpg">
+            </div>
+        </div>
+      
+    </div>
+
+    <div id="contact">
+        <p id="pf1">Contact <span>me</span></p>
+        <p>You can contact me via:</p>
+        <div class="lang">
+            <div class="tools">
+                <img src="./picture/telefon.png" style="width: 80px; height: 80px;">
+                <h2>Telephone</h2>
+                <p>063 1778684</p>
+            </div>
+            <div class="tools1">
+                <img src="./picture/Gmail.jpg">
+                <h2>Email</h2>
+                <p>stefantosic005@gmail.com</p>
+            </div>
+            <div class="tools2">
+                <img src="./picture/teams.png" style="width: 120px;">
+                <h2>Teams</h2>
+                <p>tosic.stefan.201@tsp.edu.rs</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="down">
+        <div class="images">
+            <p>You can also contact me on the following social networks</p>
+            <img src="./picture/instagram.jpg" onclick="insta()">
+            <img src="./picture/fb.png" onclick="fb()">
+            <img src="./picture/25231.png" onclick="git()">
+            <img src="./picture/disc.jpg" onclick="disc()" >
+        </div>
+      
+        <div class="footer">
+            <ul>
+                <li><a onclick="scrollInot()">HOME</a></li>
+                <li><a onclick="scrollAbout()">ABOUT</a></li>
+                <li><a onclick="scrollSkills()">SKILLS</a></li>
+                <li><a onclick="scrollProjects()">PROJECTS</a></li>
+                <li><a onclick="scrollContact()">CONTACT</a></li>
+            </ul>
+        </div>
+        <p>© Designed by Stefan Tosic. All Right Reserved.</p>
+    </div>
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
